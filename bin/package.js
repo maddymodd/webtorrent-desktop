@@ -322,7 +322,7 @@ function buildDarwin (cb) {
       console.log('Mac: Creating zip...')
 
       const inPath = path.join(buildPath[0], config.APP_NAME + '.app')
-      const outPath = path.join(DIST_PATH, BUILD_NAME + '-mac.zip')
+      const outPath = path.join(DIST_PATH, BUILD_NAME + '-Mac.zip')
       zip.zipSync(inPath, outPath)
 
       console.log('Mac: Created zip.')
