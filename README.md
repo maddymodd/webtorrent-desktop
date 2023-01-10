@@ -135,4 +135,4 @@ torrents you add.
 
 ## License
 
-MIT License
+MIT License: https://github.com/maddymodd/webtorrent-desktop-with-speed-limits/blob/master/LICENSE
