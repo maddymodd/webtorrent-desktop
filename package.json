@@ -1,11 +1,11 @@
 {
-  "name": "webtorrent-desktop",
-  "description": "WebTorrent, the streaming torrent client. For Mac, Windows, and Linux.",
+  "name": "webtorrent-desktop-with-speed-limits",
+  "description": "WebTorrent, the streaming torrent client, with speed limits. For Mac, Windows, and Linux.",
   "version": "0.24.0",
   "author": {
-    "name": "WebTorrent, LLC",
-    "email": "feross@webtorrent.io",
-    "url": "https://webtorrent.io"
+    "name": "N/A",
+    "email": "N/A",
+    "url": "N/A"
   },
   "babel": {
     "plugins": [
@@ -18,7 +18,7 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/webtorrent/webtorrent-desktop/issues"
+    "url": "https://github.com/maddymodd/webtorrent-desktop-with-speed-limits/issues"
   },
   "dependencies": {
     "@electron/remote": "2.0.9",
@@ -106,7 +106,7 @@
   "productName": "WebTorrent",
   "repository": {
     "type": "git",
-    "url": "git://github.com/webtorrent/webtorrent-desktop.git"
+    "url": "git://github.com/maddymodd/webtorrent-desktop-with-speed-limits.git"
   },
   "scripts": {
     "build": "babel src --out-dir build",
