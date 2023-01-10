@@ -18,10 +18,10 @@ const UI_HEADER_HEIGHT = 38
 const UI_TORRENT_HEIGHT = 100
 
 module.exports = {
-  ANNOUNCEMENT_URL: '',
-  AUTO_UPDATE_URL: '',
-  CRASH_REPORT_URL: '',
-  TELEMETRY_URL: '',
+  ANNOUNCEMENT_URL: 'example.com',
+  AUTO_UPDATE_URL: 'example.com',
+  CRASH_REPORT_URL: 'example.com',
+  TELEMETRY_URL: 'example.com',
 
   APP_COPYRIGHT: '',
   APP_FILE_ICON: path.join(__dirname, '..', 'static', 'WebTorrentFile'),
