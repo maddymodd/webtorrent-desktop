@@ -15,7 +15,7 @@
 
 ## Download
 
-- Download specific installer files from the [GitHub releases](https://github.com/maddymodd/webtorrent-desktop-with-speed-limits/releases) page.
+- Download specific installer files from the [GitHub releases](https://github.com/maddymodd/webtorrent-with-speed-limits/releases) page.
 
 ## Screenshots
 
@@ -29,12 +29,12 @@
 ### Clone the respository
 
 ```
-git clone https://github.com/maddymodd/webtorrent-desktop-with-speed-limits
+git clone https://github.com/maddymodd/webtorrent-with-speed-limits
 ```
 ### Enter the folder
 
 ```
-cd webtorrent-desktop-with-speed-limits
+cd webtorrent-with-speed-limits
 ```
 
 ### Install the dependencies
@@ -137,7 +137,7 @@ brew install fakeroot dpkg rpm
 
 ### Privacy
 
-WebTorrent Desktop collects some basic usage stats to help us make the app better.
+WebTorrent collects some basic usage stats to help us make the app better.
 For example, we track how well the play button works. How often does it succeed?
 Time out? Show a missing codec error?
 
@@ -146,4 +146,4 @@ torrents you add.
 
 ## License
 
-MIT License: https://github.com/maddymodd/webtorrent-desktop-with-speed-limits/blob/master/LICENSE
+MIT License: https://github.com/maddymodd/webtorrent-with-speed-limits/blob/master/LICENSE
