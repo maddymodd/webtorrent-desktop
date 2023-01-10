@@ -9,7 +9,7 @@
   <br>
 </h1>
 
-<h4 align="center">WebTorrent, the streaming torrent client, with speed limits.</h4>
+<h4 align="center">WebTorrent is a torrent client that lets you stream video while downloading. The original WebTorrent client doesn't let you turn on speed limits, so I added them.</h4>
 
 <h4 align="center">Works with Linux, Windows, and Mac OS.</h4>
 
