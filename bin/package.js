@@ -326,6 +326,7 @@ function buildDarwin (cb) {
       zip.zipSync(inPath, outPath)
 
       console.log('Mac: Created zip.')
+      cb(null)
     }
 
   }).catch(function (err) {
