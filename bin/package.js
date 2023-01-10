@@ -315,10 +315,6 @@ function buildDarwin (cb) {
 
     function pack (cb) {
       packageZip() // always produce .zip file, used for automatic updates
-
-      if (argv.package === 'dmg' || argv.package === 'all') {
-        packageDmg(cb)
-      }
     }
 
     function packageZip () {
@@ -331,51 +327,6 @@ function buildDarwin (cb) {
 
       console.log('Mac: Created zip.')
     }
-
-    function packageDmg (cb) {
-      console.log('Mac: Creating dmg...')
-
-      const appDmg = require('appdmg')
-
-      const targetPath = path.join(DIST_PATH, BUILD_NAME + '.dmg')
-      rimraf.sync(targetPath)
-
-      // Create a .dmg (Mac disk image) file, for easy user installation.
-      const dmgOpts = {
-        basepath: config.ROOT_PATH,
-        target: targetPath,
-        specification: {
-          title: config.APP_NAME,
-          icon: config.APP_ICON + '.icns',
-          background: path.join(config.STATIC_PATH, 'appdmg.png'),
-          'icon-size': 128,
-          contents: [
-            { x: 122, y: 240, type: 'file', path: appPath },
-            { x: 380, y: 240, type: 'link', path: '/Applications' },
-            // Hide hidden icons out of view, for users who have hidden files shown.
-            // https://github.com/LinusU/node-appdmg/issues/45#issuecomment-153924954
-            { x: 50, y: 500, type: 'position', path: '.background' },
-            { x: 100, y: 500, type: 'position', path: '.DS_Store' },
-            { x: 150, y: 500, type: 'position', path: '.Trashes' },
-            { x: 200, y: 500, type: 'position', path: '.VolumeIcon.icns' }
-          ]
-        }
-      }
-
-      const dmg = appDmg(dmgOpts)
-      dmg.once('error', cb)
-      dmg.on('progress', function (info) {
-        if (info.type === 'step-begin') console.log(info.title + '...')
-      })
-      dmg.once('finish', function (info) {
-        console.log('Mac: Created dmg.')
-        cb(null)
-      })
-    }
-  }).catch(function (err) {
-    cb(err)
-  })
-}
 
 function buildWin32 (cb) {
   const installer = require('electron-winstaller')
