@@ -9,7 +9,9 @@
   <br>
 </h1>
 
-<h4 align="center">WebTorrent, the streaming torrent client, with speed limits.</h4>
+<h4 align="center">WebTorrent with Speed Limits, the streaming torrent client with speed limits.</h4>
+
+<h4 align="center">Works with Linux, Windows, and Mac OS.</h4>
 
 ## Download
 
