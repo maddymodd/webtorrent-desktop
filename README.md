@@ -4,12 +4,12 @@
     <img src="https://webtorrent.io/img/WebTorrent.png" alt="WebTorrent" width="200">
   </a>
   <br>
-  WebTorrent Desktop with Speed Limits
+  WebTorrent with Speed Limits
   <br>
   <br>
 </h1>
 
-<h4 align="center">WebTorrent Desktop, the streaming torrent client, with speed limits.</h4>
+<h4 align="center">WebTorrent, the streaming torrent client, with speed limits.</h4>
 
 ## Download
 
