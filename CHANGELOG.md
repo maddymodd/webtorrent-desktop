@@ -1,5 +1,16 @@
-# WebTorrent Desktop Version History
+# WebTorrent Desktop with Speed Limits Version History
 
+## 1.0.0 - 2023-01-10
+
+### Added
+
+- Speed Limits feature
+
+- Update to Electron 20.0.1
+
+
+
+# Old - from WebTorrent Desktop vanilla
 ## v0.24.0 - 2020-08-28
 
 ### Added
