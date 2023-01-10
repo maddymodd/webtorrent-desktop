@@ -257,11 +257,8 @@ function buildDarwin (cb) {
           pack(cb)
         })
       } else {
-        printWarning()
         pack(cb)
       }
-    } else {
-      printWarning()
     }
 
     function signApp (cb) {
@@ -407,11 +404,7 @@ function buildWin32 (cb) {
         const certificatePassword = fs.readFileSync(path.join(CERT_PATH, 'authenticode.txt'), 'utf8')
         const timestampServer = 'http://timestamp.comodoca.com'
         signWithParams = `/a /f "${certificateFile}" /p "${certificatePassword}" /tr "${timestampServer}" /td sha256`
-      } else {
-        printWarning()
       }
-    } else {
-      printWarning()
     }
 
     const tasks = []
@@ -616,12 +609,4 @@ function buildLinux (cb) {
 
 function printDone (err) {
   if (err) console.error(err.message || err)
-}
-
-/*
- * Print a large warning when signing is disabled so we are less likely to accidentally
- * ship unsigned binaries to users.
- */
-function printWarning () {
-  console.log(fs.readFileSync(path.join(__dirname, 'warning.txt'), 'utf8'))
 }
