@@ -29,8 +29,9 @@
 
 <p align="center">
   <img width="953" alt="scr1" src="https://user-images.githubusercontent.com/121954045/211557899-c72be231-d691-42cb-a71e-bbb2bd6a989d.png" align="center">
-  <img width="396" alt="speedlimits" src="https://user-images.githubusercontent.com/121954045/211557989-910671dd-360c-4951-b3aa-286e031f98e6.png" align="center">
+  <img width="953" alt="scr2" src="https://user-images.githubusercontent.com/121954045/211558658-ec406ff4-6f1d-43dd-9933-14be1c5226a9.png">
 </p>
+
 
 ## How to Contribute
 
