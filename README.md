@@ -9,7 +9,7 @@
   <br>
 </h1>
 
-<h4 align="center">A version of WebTorrent Desktop with Speed Limits.</h4>
+<h4 align="center">WebTorrent Desktop, the streaming torrent client, with speed limits.</h4>
 
 <p align="center">
   <a href="https://discord.gg/cnXkm4Z"><img src="https://img.shields.io/discord/612575111718895616" alt="discord"></a>
