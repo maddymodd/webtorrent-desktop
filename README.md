@@ -96,7 +96,7 @@ The following optional arguments are available:
    - `all` - All platforms (default)
 
 Note: Even with the `--package` option, the auto-update files (.nupkg for Windows,
--darwin.zip for Mac) will always be produced.
+-Mac.zip for Mac) will always be produced.
 
 #### Windows build notes
 
