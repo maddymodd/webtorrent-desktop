@@ -23,7 +23,7 @@
 
 ## Download
 
-- Download specific installer files from the [GitHub releases](https://github.com/webtorrent/webtorrent-desktop/releases) page.
+- Download specific installer files from the [GitHub releases](https://github.com/maddymodd/webtorrent-desktop-with-speed-limits/releases) page.
 
 ## Screenshots
 
@@ -99,7 +99,7 @@ The Windows app can be packaged from **any** platform.
 
 Note: Windows code signing only works from **Windows**, for now.
 
-Note: To package the Windows app from non-Windows platforms,
+Outdated Note: To package the Windows app from non-Windows platforms,
 [Wine](https://www.winehq.org/) and [Mono](https://www.mono-project.com/) need
 to be installed. For example on Mac, first install
 [XQuartz](http://www.xquartz.org/), then run:
