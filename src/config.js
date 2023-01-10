@@ -23,7 +23,7 @@ module.exports = {
   CRASH_REPORT_URL: '',
   TELEMETRY_URL: '',
 
-  APP_COPYRIGHT: ``,
+  APP_COPYRIGHT: '',
   APP_FILE_ICON: path.join(__dirname, '..', 'static', 'WebTorrentFile'),
   APP_ICON: path.join(__dirname, '..', 'static', 'WebTorrent'),
   APP_NAME,
