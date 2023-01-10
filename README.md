@@ -24,18 +24,31 @@
 
 ## How to Contribute
 
-### Get the code
+### Clone the respository
 
 ```
-$ git clone https://github.com/maddymodd/webtorrent-desktop-with-speed-limits
-$ cd webtorrent-desktop-with-speed-limits
-$ npm install
+git clone https://github.com/maddymodd/webtorrent-desktop-with-speed-limits
+```
+### Enter the folder
+
+```
+cd webtorrent-desktop-with-speed-limits
+```
+
+### Install the dependencies
+```
+npm install
+```
+or
+
+```
+npm i
 ```
 
 ### Run the app
 
 ```
-$ npm start
+npm start
 ```
 
 ### Watch the code
@@ -43,13 +56,13 @@ $ npm start
 Restart the app automatically every time code changes. Useful during development.
 
 ```
-$ npm run watch
+npm run watch
 ```
 
 ### Run linters
 
 ```
-$ npm test
+npm test
 ```
 
 ### Package the app
@@ -57,13 +70,13 @@ $ npm test
 Builds app binaries for Mac, Linux, and Windows.
 
 ```
-$ npm run package
+npm run package
 ```
 
 To build for one platform:
 
 ```
-$ npm run package -- [platform] [options]
+npm run package -- [platform] [options]
 ```
 
 Where `[platform]` is `darwin`, `linux`, `win32`, or `all` (default).
@@ -95,13 +108,13 @@ to be installed. For example on Mac, first install
 [XQuartz](http://www.xquartz.org/), then run:
 
 ```
-$ brew install mono
+brew install mono
 ```
 
 and then:
 
 ```
-$ brew install --cask wine-stable
+brew install --cask wine-stable
 ```
 
 (Requires the [Homebrew](http://brew.sh/) package manager.)
