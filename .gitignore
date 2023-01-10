@@ -7,3 +7,6 @@ npm-debug.log*
 # JetBrains IntelliJ IDEA project files
 .idea
 *.iml
+
+# Mac
+.DS_STORE
