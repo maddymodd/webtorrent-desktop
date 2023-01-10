@@ -328,6 +328,11 @@ function buildDarwin (cb) {
       console.log('Mac: Created zip.')
     }
 
+  }).catch(function (err) {
+    cb(err)
+  })
+}
+
 function buildWin32 (cb) {
   const installer = require('electron-winstaller')
   console.log('Windows: Packaging electron...')
