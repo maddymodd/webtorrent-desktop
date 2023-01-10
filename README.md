@@ -21,7 +21,7 @@
 
 
 
-## Install
+## Download
 
 - Download specific installer files from the [GitHub releases](https://github.com/webtorrent/webtorrent-desktop/releases) page.
 
