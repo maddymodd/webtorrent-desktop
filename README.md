@@ -9,7 +9,8 @@
   <br>
 </h1>
 
-<h4 align="center">The streaming torrent app. For Mac, Windows, and Linux.</h4>
+<h4 align="center">A version of WebTorrent Desktop, The streaming torrent app, with Speed Limits.</h4>
+  <h4 align="center">For Mac, Windows, and Linux.</h4>
 
 <p align="center">
   <a href="https://discord.gg/cnXkm4Z"><img src="https://img.shields.io/discord/612575111718895616" alt="discord"></a>
