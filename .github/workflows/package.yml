@@ -22,7 +22,6 @@ jobs:
         name: linux
         path: |
           dist/*.deb
-          dist/*.rpm
           dist/*.zip
   package_macos:
     runs-on: macos-latest
@@ -43,7 +42,6 @@ jobs:
       with:
         name: macos
         path: |
-          dist/*.dmg
           dist/*.zip
   package_windows:
     runs-on: windows-latest
