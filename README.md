@@ -117,7 +117,7 @@ The Linux app can be packaged from **any** platform.
 If packaging from Mac, install system dependencies with Homebrew by running:
 
 ```
-npm run install-system-deps
+brew install fakeroot dpkg rpm
 ```
 
 ### Privacy
