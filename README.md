@@ -15,7 +15,7 @@
 
 ## Download
 
-- Download the latest version for Mac, Windows, and Linux [here.](https://github.com/maddymodd/webtorrent-with-speed-limits/releases)
+- Download the latest version [here.](https://github.com/maddymodd/webtorrent-with-speed-limits/releases)
 
 ## Screenshots
 
