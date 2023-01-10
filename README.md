@@ -15,7 +15,7 @@
 
 ## Download
 
-- Download specific installer files from the [GitHub releases](https://github.com/maddymodd/webtorrent-with-speed-limits/releases) page.
+- Download the latest version for Mac, Windows, and Linux [here.](https://github.com/maddymodd/webtorrent-with-speed-limits/releases)
 
 ## Screenshots
 
