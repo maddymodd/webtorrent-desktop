@@ -1,7 +1,7 @@
 {
   "name": "webtorrent-desktop-with-speed-limits",
   "description": "WebTorrent, the streaming torrent client, with speed limits. For Mac, Windows, and Linux.",
-  "version": "0.24.0",
+  "version": "1.0.0",
   "author": {
     "name": "N/A",
     "email": "N/A",
