@@ -114,7 +114,7 @@
     "open-config": "node ./bin/open-config.js",
     "package": "node ./bin/package.js",
     "start": "npm run build && electron --no-sandbox .",
-    "test": "depcheck,@babel/eslint-parser --ignore-dirs=build,dist",
+    "test": "depcheck --ignores=@babel/eslint-parser --ignore-dirs=build,dist",
     "test-integration": "npm run build && node ./test",
     "update-authors": "./bin/update-authors.sh",
     "watch": "nodemon --exec \"npm run start\" --ext js,css --ignore build/ --ignore dist/"
